@@ -1,0 +1,51 @@
+html {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: Normal;
+  font-size: 50px;
+}
+
+h5 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 21px;
+  color: Gray;
+}
+
+a {
+  text-decoration:  underline;
+  color: Aquamarine;
+
+}
+
+p {
+  color: Aquamarine;
+  font-size: 16px;
+  font-famil: Verdana;
+}
+
+
+.travelguide {
+  width: 90%;
+  height: auto;
+  margin: auto;
+
+  display: flex;
+  justify-content: center
+}
+
+.imgcontainer {
+  flex-shrink: 1;
+  overflow: hidden;
+  background-size: cover;
+  size: cover;
+}
+
+footer {
+  text-align: right;
+}
